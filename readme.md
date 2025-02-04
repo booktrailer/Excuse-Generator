@@ -1,0 +1,1 @@
+Dumb teacher? Make a funny excuse. Ridiculously intellegent parent? Figure out how to slip out of the situation. Even if you have a bad reputation as a cheater or an alchoholic, this app will find the answer. If you did anything wrong, the answer is here in this powerful, AI powered excuse generator!

@@ -1,8 +1,8 @@
 import google.generativeai as genai
 
 #generate the conversation and print it
-def create_excuses(person, intellegence, cause, procedure, p_info):
-    genai.configure(api_key="your_api_key")
+def create_excuses(person, intellegence, cause, procedure, p_info, api_key):
+    genai.configure(api_key=api_key)
     model = genai.GenerativeModel("gemini-1.5-flash")
 
     

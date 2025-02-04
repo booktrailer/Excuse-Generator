@@ -5,6 +5,8 @@ from excuse import *
 st.header('Ultimate Excuse Generator')
 st.markdown('Dumb teacher? Make a funny excuse. Ridiculously intellegent parent? Figure out how to shrug it off. If you did anything wrong, the answer is here!')
 
+api_key = st.text_input("API Key")
+
 #colums
 col1, col2, col3 = st.columns(3)
 col4, col5 = st.columns(2)
@@ -26,7 +28,7 @@ generate_button = st.button("Create Excuses!", type='primary')
 st.text(' ')
 
 if generate_button:
-    excuse = create_excuses(person, intellegence, cause, procedure, p_info)
+    excuse = create_excuses(person, intellegence, cause, procedure, p_info, api_key)
 
     conversation_text = excuse.candidates[0].content.parts[0].text
     st.markdown(conversation_text)
